@@ -1,11 +1,17 @@
+// this is the header file to manage the student itself.
+// it separate from the studnet.h for the clearly logical reason
 #include "student.h"
 #include <vector>
 
+// declaration of the Student Management class
 class StudentManager {
 private:
     vector<Student> students;
 public:
+    // function to register a new student to the portal
     void registerStudent();
+    // function to find the student by their id
     Student* findStudentByID(const string& id);
+    // function to get all of the student in the university
     void listAllStudents();
 };

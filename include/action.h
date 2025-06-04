@@ -1,3 +1,5 @@
+// this is the implementation of a template to manage the action history
+// in this case, is to track the course that user's drop
 #include <stack>
 using namespace std;
 
