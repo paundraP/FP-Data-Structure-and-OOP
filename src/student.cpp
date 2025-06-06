@@ -13,7 +13,7 @@ void Student::addCourse(string course) {
         }
     }
 
-    // Default course grade is 0 that means the course is ongoing
-    courses.push_back(make_pair(course, 0));
+    // Default course grade is K that means the course is ongoing
+    courses.push_back(make_pair(course, 'K'));
     cout << "Course " << course << " has been added." << endl;
 }

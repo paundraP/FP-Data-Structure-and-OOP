@@ -8,12 +8,15 @@ using namespace std;
 class Student {
     private:
     string id, name, phoneNumber,department,faculty;
-    vector<pair<string, int>> courses; // this will hold the course id and the grade student got. the default is 0, which means the student is undergoing the course
+    vector<pair<string, char>> courses; // this will hold the course id and the grade student got. the default is K, which means the student is undergoing the course
     stack<string> dropCourseHistory; // this will hold the history for the course the user's drops 
     vector<float> gradePerSemester; // this will hold the grade student got per semester
     float grades; // the current student grades
     int semester; // the current semester
     public:
+
+    // function to show the student information
+    void showMe();
     // function assign the course to the student
     void addCourse(string course);
     // function to drop against the course the student is taking now
