@@ -1,8 +1,8 @@
-id,name,credits,day
-ET234103,Algorithms and Programming Techniques,4,"[monday]"
-ET234102,Computer Organizations and Architecture,3,"[wednesday]"
-SF234204,Basic Physics,3,"[tuesday|thursday]"
-ET234104,IT Law and Ethics,2,"[monday]"
-SM234101,Calculus 1,3,"[tuesday|thursday]"
-EE234101,Introduction to Intelligence Electrical and Informatics,2,["monday"]
-ET234101,Statistics and Probability,3,"[wednesday]"
+id,name,credits,day,time
+ET234103,Algorithms and Programming Techniques,4,"[monday]",10 AM
+ET234102,Computer Organizations and Architecture,3,"[wednesday]",1 PM
+SF234204,Basic Physics,3,"[tuesday|thursday]",2 PM
+ET234104,IT Law and Ethics,2,"[monday]",1 PM
+SM234101,Calculus 1,3,"[tuesday|thursday]",9 AM
+EE234101,Introduction to Intelligence Electrical and Informatics,2,["monday"],7 AM
+ET234101,Statistics and Probability,3,"[wednesday]",9 AM
