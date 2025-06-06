@@ -3,7 +3,7 @@
 using namespace std;
 
 // the implementation of adding the course to the student
-void Student::addCourse(string course) {
+void Student::takeCourse(string course) {
     // checking whether the course is already in the student course list using for each.
     for(const auto &c: courses) {
         // if the course is in the courses list, thats mean that the course the user want to add is already on the list
