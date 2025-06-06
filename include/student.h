@@ -4,6 +4,8 @@
 #include <stack>
 using namespace std;
 
+class CourseManager;
+
 // declaration of the student class
 class Student {
     private:
@@ -18,9 +20,9 @@ class Student {
     // function to show the student information
     void showMe();
     // function assign the course to the student
-    void takeCourse(string course);
+    void takeCourse(const string &course, CourseManager &manager);
     // function to drop against the course the student is taking now
-    void dropCourse(string course);
+    void dropCourse(string &course);
     // function to undo or re join the course the user already dropped
     void undoDropCourse();
     // function to view all the course that student already finish or is taking now
