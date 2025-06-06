@@ -1,0 +1,8 @@
+id,name,credits
+ET234103,Algorithms and Programming Techniques,4
+ET234102,Computer Organizations and Architecture,3
+SF234204,Basic Physics,3
+ET234104,IT Law and Ethics,2
+SM234101,Calculus 1,3
+EE234101,Introduction to Intelligence Electrical and Informatics,2
+ET234101,Statistics and Probability,3

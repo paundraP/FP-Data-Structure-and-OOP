@@ -1,0 +1,2 @@
+id,name,phoneNumber,department,faculty,courses,dropCourseHistory,gradePerSemester,grades,semester
+5027241008,Paundra Pujo Darmawan,123456789,IT,ELECTICS,"[ET234103:A|ET234102:A|ET234104:B|SM234101:BC|EE234101:B|ET234101:A]","[SF234204]","[3.5]",3.5
