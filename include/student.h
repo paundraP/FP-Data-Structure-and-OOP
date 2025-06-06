@@ -27,4 +27,6 @@ class Student {
     void viewCourse();
     // function to show the grade both for per semester or the current grade
     void viewGrades();
+    // function to view schedule for a week
+    void viewSchedule();
 };
