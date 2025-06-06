@@ -18,7 +18,7 @@ class Student {
     // function to show the student information
     void showMe();
     // function assign the course to the student
-    void addCourse(string course);
+    void takeCourse(string course);
     // function to drop against the course the student is taking now
     void dropCourse(string course);
     // function to undo or re join the course the user already dropped
