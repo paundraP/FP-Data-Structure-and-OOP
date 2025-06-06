@@ -1,11 +1,12 @@
 // this is header file for the course
 #include <string>
+#include <vector>
 using namespace std;
 
 // declaration for the course class
-// hold the course id, course name, and the course credit
 class Course {
     public:
-    string id, name;
+    string id, name, time;
+    vector<string> day;
     int credits;
 };
