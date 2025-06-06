@@ -8,7 +8,6 @@ using namespace std;
 class Department {
     public:
     string id, name;
-    vector<string> courseCode;
 };
 
 // declaration of Faculty class
