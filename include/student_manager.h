@@ -16,6 +16,4 @@ public:
     void loginStudent();
     // function to find the student by their id
     Student* findStudentByID(const string& id);
-    // function to get all of the student in the university
-    void listAllStudents();
 };
