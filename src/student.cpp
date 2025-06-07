@@ -5,7 +5,9 @@ using namespace std;
 
 // the implementation of adding the course to the student
 void Student::takeCourse(const string &courseID, CourseManager &manager) {
+    // check if the course id is valid
     Course* course = manager.getCourseByID(courseID);
+    // if the course id is invalid or there is no data inside the database, return error message
     if (course == nullptr) {
         cout << "Course " << course << " does not exist." << endl;
         return;
