@@ -10,6 +10,8 @@ private:
     // mapping the course by their id
     map<string, Course> courseMap;
 public:
+    // function to load all course in the database
+    void loadCourses(const string &filename);
     // function to add the course to the list of course available the student can take
     void addCourse(const Course& course);
     // function to get the detail or spesific course by their id

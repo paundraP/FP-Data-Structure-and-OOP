@@ -8,8 +8,12 @@ class StudentManager {
 private:
     vector<Student> students;
 public:
+    // function to load all students on the database
+    void loadStudents(const string &filename);
     // function to register a new student to the portal
     void registerStudent();
+    // function to login for student to the portal
+    void loginStudent();
     // function to find the student by their id
     Student* findStudentByID(const string& id);
     // function to get all of the student in the university
