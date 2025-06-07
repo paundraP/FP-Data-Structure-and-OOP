@@ -31,4 +31,11 @@ class Student {
     void viewGrades();
     // function to view schedule for a week
     void viewSchedule();
+    // function to save every change make to the data
+    void saveChange(const Student& s, const string& filename);
+
+    // list function called in saveChange function to join the data so it can be saved in the database
+    string joinCourses(const vector<pair<string, int>>& courses);
+    string joinDropHistory(stack<string> history);
+    string joinGrades(const vector<float>& grades);
 };
